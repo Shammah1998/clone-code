@@ -1,0 +1,117 @@
+*{
+  border: 2px solid red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(185, 127, 19);
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: rgb(185, 127, 19);
+    color: #333;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.5in;
+    margin-bottom: -8pc;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  nav ul li a {
+    display: normal;
+    padding: 2.5px 5px;
+    margin: 0;
+    background-color: rgb(185, 127, 19);
+    border-radius: 30px;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: normal;
+    color: #333;
+    text-transform: capitalize;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    
+    
+    
+  }
+  nav ul li:hover {
+    transform: scale(1.2);
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: darkgreen;
+    transform: scale(1.2)
+  }
+  nav li {
+    margin-right: 1rem;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 1pc;
+    
+  
+  }
+  
+  .logo img {
+    height: 50px;
+    width: 50;
+    display: inline-block;
+  margin-top: -15px;
+  border-style: hidden;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+  
+  }
+  .logo :hover{
+    transform: scale(1.1)
+  }
+  
+  
+  .logo h1 {
+    margin: 0;
+    color: #333;
+  }
+ 
+.form {
+  border-radius: 50px;
+ margin: 0px;
+ padding: 0px;
+ color: #333;
+ }
+ .form button {
+color: #333;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;
+text-decoration: none;
+ }
+ .main {
+  margin-top: 0.5in;
+  padding: 0;
+  height: 100vw;
+}
+  
+  .footer{
+    top: -20px;
+  }
